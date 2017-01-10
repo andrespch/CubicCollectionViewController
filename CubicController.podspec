@@ -22,7 +22,5 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
   s.source           = { :git => 'https://github.com/andrespch/CubicCollectionViewController.git', :tag => s.version.to_s }
-  s.platform = :ios, '8.0'
-  s.ios.platform = :ios, '8.0'
   s.ios.deployment_target = '8.0'
 end
