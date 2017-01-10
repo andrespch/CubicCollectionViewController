@@ -9,6 +9,11 @@
 ![alt tag](https://github.com/andrespch/CubicCollectionViewController/blob/master/Cubic_Controller.gif)
 
 ## Requirements
+Swift 3
+iOS 8.0+
+
+## Usage
+your cells need to be subclasses of `CubicCollectionViewCell` or have the same implementation of `prepareForReuse`
 
 ## Installation
 
