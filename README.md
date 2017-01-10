@@ -5,8 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/CubicController.svg?style=flat)](http://cocoapods.org/pods/CubicController)
 [![Platform](https://img.shields.io/cocoapods/p/CubicController.svg?style=flat)](http://cocoapods.org/pods/CubicController)
 
-## Video
-https://www.youtube.com/watch?v=QdOKh_nFjx8&feature=youtu.be
+## Example
+![alt tag](https://raw.githubusercontent.com/andrespch/CubicCollectionViewController/CubicCollectionViewController/Cubic_Controller.gif)
+
 ## Requirements
 
 ## Installation
