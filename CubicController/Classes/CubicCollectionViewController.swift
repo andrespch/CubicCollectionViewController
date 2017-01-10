@@ -25,7 +25,7 @@ open class CubicCollectionViewController: UIViewController, UICollectionViewData
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.minimumLineSpacing = 0
         flowLayout.minimumInteritemSpacing = 0
-        flowLayout.itemSize = collectionView.bounds.size
+        flowLayout.itemSize = UIScreen.main.bounds.size
         flowLayout.scrollDirection = .horizontal
         collectionView.backgroundColor = UIColor.gray
         collectionView.collectionViewLayout = flowLayout
