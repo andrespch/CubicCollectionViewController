@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  InstagramStoriesLayout
+//  CubicCollectionViewController.swift
+//  CubicCollectionViewController
 //
 //  Created by andres portillo on 1/7/17.
 //  Copyright © 2017 andres portillo. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CubicCollectionViewController: UIViewController {
 
     let maxAngle: CGFloat = 60
     @IBOutlet weak var collectionView: UICollectionView!
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 }
 
 
-extension ViewController: UICollectionViewDataSource {
+extension CubicCollectionViewController: UICollectionViewDataSource {
     final func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
@@ -44,7 +44,7 @@ extension ViewController: UICollectionViewDataSource {
     }
 }
 
-extension ViewController: UIScrollViewDelegate {
+extension CubicCollectionViewController: UIScrollViewDelegate {
     private func angleForCell(at indexPath: IndexPath) -> CGFloat {
         let p = transitionProgressForCell(at: indexPath)
         return maxAngle * p
