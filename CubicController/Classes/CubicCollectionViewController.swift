@@ -11,7 +11,7 @@ import UIKit
 open class CubicCollectionViewController: UIViewController {
 
     let maxAngle: CGFloat = 60
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet open weak var collectionView: UICollectionView!
 
     open override func viewDidLoad() {
         super.viewDidLoad()
