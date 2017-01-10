@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CubicController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/CubicController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/andrespch/CubicCollectionViewController.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 end
