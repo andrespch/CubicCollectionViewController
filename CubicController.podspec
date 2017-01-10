@@ -23,4 +23,5 @@ Pod::Spec.new do |s|
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
   s.source           = { :git => 'https://github.com/andrespch/CubicCollectionViewController.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
+  s.source_files = 'CubicController/Classes/**/*'
 end
