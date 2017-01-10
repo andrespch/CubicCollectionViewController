@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'A Subclass of UICollectionViewController that creates a 3d scrolling effect like a Cube, similiar to the one used by Instagram on their new Stories'
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CubicController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
