@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'A Subclass of UICollectionViewController that creates a 3d scrolling effect like a Cube, similiar to the one used by Instagram on their new Stories'
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CubicController'
+  s.homepage         = 'https://github.com/andrespch/CubicController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
   s.source           = { :git => 'https://github.com/andrespch/CubicCollectionViewController.git', :tag => s.version.to_s }
