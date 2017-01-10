@@ -22,21 +22,9 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CubicController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'andrespch' => 'andres.portillos@gmail.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/CubicController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CubicController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CubicController' => ['CubicController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
