@@ -1,0 +1,16 @@
+PODS:
+  - CubicController (0.1.0)
+
+DEPENDENCIES:
+  - CubicController (from `../`)
+
+EXTERNAL SOURCES:
+  CubicController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubicController: dd557a58abf59d37339bf73e7a14fe0ce16dee65
+
+PODFILE CHECKSUM: 1358d546dbed9d89bd1ba0c27d7a17420f847e64
+
+COCOAPODS: 1.1.1

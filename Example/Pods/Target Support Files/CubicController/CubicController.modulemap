@@ -1,0 +1,6 @@
+framework module CubicController {
+  umbrella header "CubicController-umbrella.h"
+
+  export *
+  module * { export * }
+}
