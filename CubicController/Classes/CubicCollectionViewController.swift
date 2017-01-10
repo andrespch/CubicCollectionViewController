@@ -8,12 +8,12 @@
 
 import UIKit
 
-class CubicCollectionViewController: UIViewController {
+open class CubicCollectionViewController: UIViewController {
 
     let maxAngle: CGFloat = 60
     @IBOutlet weak var collectionView: UICollectionView!
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         configureLayout()
     }
@@ -31,15 +31,15 @@ class CubicCollectionViewController: UIViewController {
 
 
 extension CubicCollectionViewController: UICollectionViewDataSource {
-    final func numberOfSections(in collectionView: UICollectionView) -> Int {
+    public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    open func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return UICollectionViewCell()
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    open func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 0
     }
 }
@@ -72,7 +72,7 @@ extension CubicCollectionViewController: UIScrollViewDelegate {
         return CGFloat(collectionView.contentOffset.x / collectionView.frame.width)
     }
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         for indexPath in collectionView.indexPathsForVisibleItems  {
             let cell = collectionView.cellForItem(at: indexPath)!
             let angle = angleForCell(at: indexPath)
@@ -89,7 +89,7 @@ extension CubicCollectionViewController: UIScrollViewDelegate {
     }
 }
 
-extension UIView {
+public extension UIView {
     func setAnchorPoint(_ anchorPoint: CGPoint) {
         
         var newPoint = CGPoint(x: bounds.size.width * anchorPoint.x, y: bounds.size.height * anchorPoint.y)
