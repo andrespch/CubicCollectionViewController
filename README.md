@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CubicController.svg?style=flat)](http://cocoapods.org/pods/CubicController)
 
 ## Example
-![alt tag](https://raw.githubusercontent.com/andrespch/CubicCollectionViewController/CubicCollectionViewController/Cubic_Controller.gif)
+![alt tag](https://github.com/andrespch/CubicCollectionViewController/blob/master/Cubic_Controller.gif)
 
 ## Requirements
 
