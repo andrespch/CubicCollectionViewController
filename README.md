@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CubicController.svg?style=flat)](http://cocoapods.org/pods/CubicController)
 
 ## Video
-
+https://www.youtube.com/watch?v=QdOKh_nFjx8&feature=youtu.be
 ## Requirements
 
 ## Installation
