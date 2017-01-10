@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CubicController_Tests' do
+  pod 'CubicController', :path => '../'
+  
+  
+end
