@@ -8,17 +8,19 @@
 
 import UIKit
 
-open class CubicCollectionViewController: UIViewController {
+open class CubicCollectionViewController: UIViewController, UICollectionViewDataSource,  UICollectionViewDelegate {
 
     let maxAngle: CGFloat = 60
     @IBOutlet open weak var collectionView: UICollectionView!
 
     open override func viewDidLoad() {
         super.viewDidLoad()
-        configureLayout()
+        configureCollectionView()
     }
     
-    private func configureLayout() {
+    private func configureCollectionView() {
+        collectionView.delegate = self
+        collectionView.dataSource = self
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.minimumLineSpacing = 0
         flowLayout.minimumInteritemSpacing = 0
@@ -29,8 +31,8 @@ open class CubicCollectionViewController: UIViewController {
     }
 }
 
-
-extension CubicCollectionViewController: UICollectionViewDataSource {
+// MARK: - UICollectionViewDataSource
+extension CubicCollectionViewController {
     public func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
